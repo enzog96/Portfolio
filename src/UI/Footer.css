@@ -1,0 +1,33 @@
+footer{
+    background-color: #1d3557;
+    width: 95%;
+    margin: auto;
+    border-radius: 5vh;
+}
+
+footer a,footer span {
+    color: #f1faee;
+    font-family: 'Pridi', serif;
+}
+
+footer h2{
+    font-family: 'Elsie', cursive;
+}
+
+.icon{
+    color: #f1faee;
+}
+
+@media only screen and (max-width: 600px) {
+    footer{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    footer{
+        width: 100%;
+        margin: auto;
+    }
+}

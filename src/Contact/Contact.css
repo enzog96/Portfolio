@@ -1,0 +1,47 @@
+.contact{
+    background-color: #f1faee;
+    height: 100vh;
+    display:grid;
+    align-items: center;
+    
+}
+
+.contact h2{
+    color: #f1faee;
+    font-family: 'Elsie', cursive;
+    font-size: 10vh;
+    padding-bottom: 5vh;
+}
+
+.contact-div{
+    border: 1px solid #e63946;
+    border-radius: 5vh;
+    background-color: #e63946;
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.contact-div input, .contact-div textarea{
+    background-color: #1d3557;
+    border: 1px solid #1d3557;
+    color: #f1faee;
+}
+
+.contact label {
+    color: #f1faee;
+    font-family: 'Pridi', serif;
+}
+
+.contact button {
+    background-color: #1d3557;
+    color: #f1faee;
+    font-family: 'Pridi', serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact h2{
+        font-size: 7vh;
+    }
+  }

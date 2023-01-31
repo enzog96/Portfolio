@@ -1,0 +1,108 @@
+.project2{
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  margin-top: 10vh;
+ 
+}
+
+.project2 h1{
+  color: #1d3557;
+    font-family: 'Elsie', cursive; 
+    font-size: 4.5em;
+}
+
+.project2 h3{
+    color: #1d3557;
+    font-family: 'Elsie', cursive; 
+    font-size: 3em;
+}
+
+.project2 p{
+  font-family: 'Pridi', serif;
+    font-size: 2.5vh;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  row-gap: 10vh;
+}
+
+.buttons,.buttons1 {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.card{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+.buttons1 button, .buttons button {
+  border: 1px solid #1d3557;
+  background-color: #1d3557;
+  color: #fff;
+  font-family: 'Elsie', cursive;
+  border-radius: 5vh;
+  font-size: 3vh;
+  width: 20vh;
+  margin: 1vh;
+}
+
+.cardimage{
+  position: relative;
+  width: 90vh;
+  height: 90vh;
+  overflow: scroll;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius:5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+
+@media only screen and (max-width: 600px) {
+
+  .buttons1 button, .buttons button {
+    font-size: 2vh;
+    width: 12vh;
+    
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .cardimage{
+    width: 95%;
+  }
+
+}
+
+
+

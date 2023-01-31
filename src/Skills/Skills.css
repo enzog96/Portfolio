@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&display=swap');
+
+.section1{
+    height: 100vh;
+    width: 95%;
+    margin: auto;
+}
+
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.skill h1{
+    color: #1d3557;
+    font-family: 'Elsie', cursive; 
+    font-size: 4.5em;
+}
+
+.skills{
+    margin: auto;
+    width: 60vh;
+    height: 80%;
+    border: 2vh solid #e63946;
+    border-radius: 5vh;
+    padding: 1vh;
+    background-color: #1d3557;
+}
+
+.skills h2{
+    font-family: 'Pridi', serif;
+}
+
+.skills img{
+    width: 70%;
+}
+
+
+.kol{
+    border: 1vh solid #e63946;
+    border-radius: 3vh;
+    width: 10vh;
+    height: 10vh;
+    box-shadow: #e63946 0px 5px 15px;
+    background-color: #f1faee;
+}
+
+.kol:hover{
+    scale: 1.3;
+    z-index: 999;
+}
+
+
+.kol:nth-child(1), .kol:nth-child(2), .kol:nth-child(3){
+    animation-delay: 0.5s !important;
+    animation-duration: 0.5s !important;  
+}
+
+.kol:nth-child(4), .kol:nth-child(5), .kol:nth-child(6){
+    animation-delay: 0.7s !important;
+    animation-duration: 0.7s !important;  
+}
+
+.kol:nth-child(7), .kol:nth-child(8), .kol:nth-child(9){
+    animation-delay: 0.9s !important;
+    animation-duration: 0.9s !important;  
+}
+
+.kol:nth-child(10), .kol:nth-child(11), .kol:nth-child(12){
+    animation-delay: 1.1s !important;
+    animation-duration: 1.1s !important;  
+}
+
+.kol h2{
+    font-size: 1.5vh;
+}
+
+.competences{
+    margin: auto;
+    width: 60vh;
+    height: 80%;
+    border: 2vh solid #1d3557;
+    border-radius: 5vh;
+    background-color: #e63946;
+}
+
+.competences h2{
+    color: #e63946;
+}
+
+.competences p{
+    color: #f1faee;
+}
+
+
+.competences img{
+    width: 40%;
+}
+
+.competence{
+    width: 90%;
+    height: 45vh;
+    border-radius: 5vh;
+    padding: 2vh;
+    box-shadow: #1d3557 0px 5px 15px;
+    background-color: #1d3557;
+    animation-delay: 1s !important;
+    animation-duration: 1s !important;  
+}
+
+.competence h2{
+    font-size: 2.5vh;
+}
+
+.competence p{
+    
+    font-size: 2vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .section1{
+        height: 100%;
+        width: 100%;
+    }
+
+    .skills{
+        width: 45vh;
+    }
+
+    .competences{
+        width: 45vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2vh;
+    }
+
+    .competences img{
+        width: 20%;
+    }
+    .competence{
+        height: 35vh;
+        margin: 2vh ;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .section1{
+        height: 100%;
+    }
+}
+
+
+

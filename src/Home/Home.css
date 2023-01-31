@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
+
+.home{
+    width: 95%;
+    margin: auto;
+    height: 60vh;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+}
+
+.description{
+    width: 80%;
+    padding: 10px;
+}
+
+.description p{
+    font-family: 'Pridi', serif;
+    font-size: 3.5vh;
+}
+
+.titi{
+    color: #1d3557;
+    font-family: 'Elsie', cursive; 
+}
+
+.index-module_type__E-SaG{
+    font-family: 'Elsie', cursive;
+    color: #1d3557;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    right: 5%;
+}
+
+.image {
+    width: 75%;
+    height: 75%;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    background-color: #e63946;
+    margin: auto;
+    position: absolute;
+    animation: morph 4s ease-in-out infinite both alternate;
+    
+}
+
+.image2 {
+    width: 75%;
+    height: 75%;
+    border-radius: 30% 70% 70% 30% / 40% 60% 40% 60%;
+    background-color: #1d3557;
+    margin: auto;
+    position: absolute;
+    background-image: url('../image/bg.png');
+    background-size: cover;
+    background-position: bottom;
+    animation: morph2 4s ease-in-out infinite both alternate;
+    
+    
+}
+
+@keyframes morph {
+    0% {border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;} 
+    100% {border-radius: 30% 70% 70% 30% / 40% 60% 40% 60%;} 
+  }
+  
+  @keyframes morph2 {
+    0% {border-radius: 30% 70% 70% 30% / 40% 60% 40% 60%;} 
+    100% {border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;} 
+  }
+
+
+.typed-cursor{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .home{
+        width: 100%;
+        margin: auto;
+        height: 150vh;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr !important;  
+    }
+    .description{
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        padding: 0;
+    }
+    .typing{
+        font-size: 8vh !important;
+    }
+
+    .container{
+        display: flex;
+        height: 60vh;
+        padding: 10vh;
+        justify-content: center;
+        margin: auto;
+        right: 0;
+    } 
+} 
+
+@media only screen and (min-width: 600px){
+    .home{
+        margin: auto;
+        height: 100%;
+        margin-top: 5%;
+        display: grid;
+        align-items: center;
+        align-content: center;
+    }
+
+    .container{
+        width: 100%;
+        height: 50vh;
+        margin-top: 5vh;
+    }
+
+    .image, .image2 {
+        width: 30vh;
+    }
+    .typing{
+        font-size: 6vh !important;
+    }
+}
